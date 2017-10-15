@@ -8,20 +8,6 @@
     "lint": "eslint src",
     "flow": "flow"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/kserjey/quick-start-react.git"
-  },
-  "keywords": [
-    "boilerplate",
-    "react"
-  ],
-  "author": "Sergey Korchinskiy",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/kserjey/quick-start-react/issues"
-  },
-  "homepage": "https://github.com/kserjey/quick-start-react#readme",
   "dependencies": {
     "react": "^16.0.0",
     "react-dom": "^16.0.0"
