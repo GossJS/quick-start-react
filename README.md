@@ -1,4 +1,4 @@
-# Just Start Boilerplate
+# Quick Start Boilerplate
 
 Start your project in seconds!
 
