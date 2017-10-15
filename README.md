@@ -27,6 +27,21 @@ $ rm -rf .git
 $ git init
 ```
 
+Also you will probably want to correct version, name and description in package.json:
+```diff
+ {
+-  "name": "quick-start-react",
+-  "version": "0.7.0",
+-  "description": "Quick start with React",
++  "name": "my-great-app",
++  "version": "1.0.0",
++  "description": "My gread React app!",
+   "main": "index.js",
+   "scripts": {
+     "start": "webpack-dev-server --open --config webpack.dev.js",
+
+```
+
 ### 2. Install dependencies
 
 ```sh
