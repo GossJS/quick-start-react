@@ -1,0 +1,16 @@
+{
+    "parser": "babel-eslint",
+    "extends": ["airbnb"],
+    "env": {
+        "browser": true
+    },
+    "rules": {
+        "comma-dangle": ["error", "never"],
+        "no-console": ["error", { "allow": ["warn", "error"] }],
+        "jsx-quotes": ["error", "prefer-single"],
+        "semi": ["error", "always", { "omitLastInOneLineBlock": true }],
+        "react/jsx-filename-extension": ["error", { "extensions": [".js", ".jsx"] }],
+        "react/jsx-tag-spacing":  ["error", { "beforeSelfClosing": "never" }],
+        "import/no-extraneous-dependencies": "off"
+    }
+}
